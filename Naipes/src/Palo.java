@@ -1,6 +1,6 @@
 
 public enum Palo {
-	PICAS('\u2660'), TREBOLES('\u2663'), DIAMANTES('\u2665'), CORAZONES('\u2666');
+	TREBOLES('\u2663'), DIAMANTES('\u2662'), CORAZONES('\u2661'), PICAS('\u2660');
 
 	private char simbolo;
 
@@ -11,4 +11,5 @@ public enum Palo {
 	public char getSimbolo() {
 		return simbolo;
 	}
+
 }

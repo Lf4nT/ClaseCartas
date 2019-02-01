@@ -1,17 +1,21 @@
 
 public class Naipe {
 	private Palo palo;
-	private int rango;
 	private Id id;
+	private int rango;
 
-	public Naipe(Palo palo, int rango, Id id) {
+	public Naipe(Palo palo, Id id, int rango) {
 		this.palo = palo;
-		this.rango = rango;
 		this.id = id;
+		this.rango = rango;
 	}
 
 	public Palo getPalo() {
 		return palo;
+	}
+
+	public Id getId() {
+		return id;
 	}
 
 	public int getRango() {
@@ -22,7 +26,4 @@ public class Naipe {
 		this.rango = rango;
 	}
 
-	public Id getId() {
-		return id;
-	}
 }
