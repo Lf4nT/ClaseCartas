@@ -1,3 +1,4 @@
+package lel;
 
 public class Naipe {
 	private Palo palo;
