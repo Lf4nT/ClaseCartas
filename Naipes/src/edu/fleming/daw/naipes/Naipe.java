@@ -27,4 +27,9 @@ public class Naipe {
 		this.rango = rango;
 	}
 
+	@Override
+	public String toString() {
+		return id + "(" + palo.getSimbolo() + ")";
+	}
+
 }
