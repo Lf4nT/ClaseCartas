@@ -1,4 +1,4 @@
-package lel;
+package edu.fleming.daw.naipes;
 
 public class Naipe {
 	private Palo palo;
